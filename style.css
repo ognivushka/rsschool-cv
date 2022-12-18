@@ -59,9 +59,8 @@
  html,
  body {
   height: 100%;
-  font-size: 14px;
+  font-size: 16px;
   background-color: #fff;
-  color: #3f3b3d;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
@@ -77,7 +76,8 @@
    padding-right: calc(15px + (80 - 15) * ((100vw - 320px) / (1440 - 320)));
 
  }
-
+ .main {
+}
  /* ......................header........................... */
  .header {
     background-color: #935FA7;
@@ -107,3 +107,34 @@
 }
 .nav-educti {
 }
+/* ....................Name.................... */
+.name {
+  margin: 30px 15px;
+}
+.flexname{
+   display: flex;
+   gap: calc(15px + (100 - 15) * ((100vw - 320px) / (1440 - 320)));
+   flex-wrap: wrap;
+}
+.foto {
+   max-width: 300px;
+   border-radius: 5%;
+}
+.divflex{
+}
+.cont-for-foto{
+
+}
+.my-name {
+   font-size: 25px;
+   font-weight: 600;
+   margin-bottom: 5px;
+}
+.line {
+   width: 300px;
+   border-top: 1px rgb(196, 182, 182) solid ;
+}
+.pof {
+   margin-top: 10px;
+}
+/* ........................ */
