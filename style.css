@@ -1,63 +1,62 @@
 /* ........................ global reset................................... */
 
 * {
-   padding: 0;
-   margin: 0;
-   border: 0;
- }
- 
- *,
- *::before,
- *::after {
-   box-sizing: border-box;
- }
- 
- 
- ul[class],
- ol[class] {
-   padding: 0;
- }
- 
- body,
- h1,
- h2,
- h3,
- h4,
- p,
- ul[class],
- ol[class],
- li,
- figure,
- figcaption,
- blockquote,
- dl,
- dd {
-   margin: 0;
- }
- 
- ul[class],
- ol[class] {
-   list-style: none;
- }
- 
- a {
-   text-decoration: none;
-   color: inherit;
- }
- 
- img {
-   max-width: 100%;
-   height: auto;
- }
- 
- input,
- button,
- textarea,
- select {
-   font: inherit;
- }
- html,
- body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+html,
+body {
   height: 100%;
   font-size: 16px;
   background-color: #fff;
@@ -69,33 +68,31 @@
 
 /*.......................... global........................ */
 .conteiner {
-   max-width: 1440px;
-   margin: 0 auto;
-   padding: 0px 15px;
-   padding-left: calc(15px + (80 - 15) * ((100vw - 320px) / (1440 - 320)));
-   padding-right: calc(15px + (80 - 15) * ((100vw - 320px) / (1440 - 320)));
-
- }
- .main {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  padding-left: calc(15px + (80 - 15) * ((100vw - 320px) / (1440 - 320)));
+  padding-right: calc(15px + (80 - 15) * ((100vw - 320px) / (1440 - 320)));
 }
- /* ......................header........................... */
- .header {
-    background-color: #935FA7;
-    color: #e9dfed;
+.main {
+  color: #3b2643;
+}
+/* ......................header........................... */
+.header {
+  background-color: #935fa7;
+  color: #e9dfed;
 }
 .nav {
-   padding: 20px;
+  padding: 20px;
 }
 .nav-list {
-   display: flex;
-   justify-content: right;
-   align-items: center;
-   flex-wrap: wrap;
-   gap: 50px;
-   
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 .nav-item {
-   
 }
 .nav-contact {
 }
@@ -107,34 +104,64 @@
 }
 .nav-educti {
 }
-/* ....................Name.................... */
+/* ..............................Name section.................................. */
 .name {
-  margin: 30px 15px;
+  margin: 50px 15px;
 }
-.flexname{
-   display: flex;
-   gap: calc(15px + (100 - 15) * ((100vw - 320px) / (1440 - 320)));
-   flex-wrap: wrap;
+.flexname {
+  display: flex;
+  gap: calc(15px + (100 - 15) * ((100vw - 320px) / (1440 - 320)));
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 .foto {
-   max-width: 300px;
-   border-radius: 5%;
+  max-width: 300px;
+  border-radius: 100%;
 }
-.divflex{
+.divflex {
 }
-.cont-for-foto{
-
+.cont-for-foto {
 }
 .my-name {
-   font-size: 25px;
-   font-weight: 600;
-   margin-bottom: 5px;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 5px;
 }
 .line {
-   width: 300px;
-   border-top: 1px rgb(196, 182, 182) solid ;
+  width: 300px;
+  border-top: 1px rgb(196, 182, 182) solid;
 }
 .pof {
-   margin-top: 10px;
+  margin-top: 10px;
 }
-/* ........................ */
+/* ...........................main-info section.................................... */
+.main-info {
+  display: grid;
+  grid: auto-flow / 1fr 1fr;
+  row-gap: 100px;
+  column-gap: 20px;
+  text-align: justify;
+  margin: 100px 15px;
+}
+.info-conteiner {
+}
+.contact-info {
+}
+.info-text {
+  font-size: 25px;
+}
+.list {
+}
+.info {
+}
+.skills {
+}
+.code-exemple {
+}
+.my-projects {
+}
+.info-link {
+}
+.educ-and-lang {
+}
