@@ -144,16 +144,19 @@ body {
   text-align: justify;
   margin: 100px 15px;
 }
-.info-conteiner {
-}
 .contact-info {
 }
+.info-conteiner {
+}
 .info-text {
-  font-size: 25px;
+  font-size: 30px;
+  margin-bottom: 25px;
 }
 .list {
 }
 .info {
+  margin-bottom: 10px;
+  font-size: 19px;
 }
 .skills {
 }
@@ -161,7 +164,12 @@ body {
 }
 .my-projects {
 }
-.info-link {
+.info-link :hover{
+color: #935fa7;
+
 }
 .educ-and-lang {
+}
+.icone{
+  margin-right: 10px;
 }
